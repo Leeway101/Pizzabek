@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  backdrop-filter: blur(1px);
+}
+
+form.nosubmit {
+  border: none;
+  padding: 0;
+  width: 350px;
+  height: 40px;
+}
+
+#form {
+  width: 450px;
+}
+
+#input {
+  border: 1px solid #F4F4F4;
+  border-radius: 5px;
+  width: 100%;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+.filt-btn:focus {
+  background-color: black;
+  color: aliceblue;
+}
+
+nav {
+  padding-top: 70px;
+  position: relative;
+}
+
+.card-img {
+  height: 250px;
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.barcha-pitsalar {
+  font-size: 20px;
+  margin-top: 20px;
+  margin: 30px 0;
+}
+
+.card-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  opacity: 0.7;
+}
+
+.card {
+  overflow: hidden;
+  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+#productDetail {
+  border: 1px solid rgba(193, 193, 193, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.korzinkaTitle {
+  font-size: 24px;
+}
+
+.korzinkaId {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.close {
+  position: absolute;
+}
+
+#myModal {
+  border: 2px solid rgb(243, 235, 235);
+  border-radius: 20px;
+  padding: 30px;
+  top: 18%;
+  left: 5%;
+  width: 90%;
+  height: 500px;
+  position: fixed;
+  z-index: 1;
+  display: none;
+  background: #fff;
+  overflow: hidden;
+}
+
+#modal-content-body {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.modal-body {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  justify-content: center;
+}
+
+.savatcha {
+  text-align: center;
+}
+
+.bag {
+  padding: 5px;
+  background-color:
+    #FE5F1E;
+  border-radius: 20px;
+}
+
+#uchirish {
+  background-color: #fa7000;
+}
+
+#qushish {
+  background-color: #006F4C;
+  color: #fff;
+}
+
+.pizza-text {
+  display: grid;
+  grid-template-columns: auto;
+
+}
+
+button {
+  padding: 5px 20px;
+  border: 1px solid rgb(232, 232, 233);
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+#sanoq {
+  border-radius: 50px;
+
+}
+
+.sanoq-div {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 0 10px;
+  border: 1px solid rgb(229, 229, 238);
+  width: 250px;
+  background-color: rgb(214, 211, 205);
+}
+
+.card {
+  margin-top: 40px;
+}
+
+
+#card-modal {
+  background-color: #FE5F1E;
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+  top: 25%;
+  display: none;
+}
+
+.card-body {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  width: 300px;
+  height: 100%;
+  background: #FFFFFF;
+  box-shadow: 5px 2px 30px rgba(210, 208, 215, 0.3);
+  border-radius: 10px;
+}
+
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-h3 {
+  color: black;
+}
+
+.card-p {
+  font-size: 15px;
+}
+
+.card-btn {
+
+  color: black;
+  background-color: #EBEBEB;
+  border: #EBEBEB;
+  padding: 10px;
+  border-radius: 7px;
+  bottom: 20px;
+}
+
+.razmer {
+  border-radius: 20px;
+  width: 250px;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  background-color: rgb(232, 232, 233);
+}
+
+#razmer {
+  padding: 5px 20px;
+}
+
+#razmer:focus {
+  background-color: #fa7000;
+  color: black;
+}
